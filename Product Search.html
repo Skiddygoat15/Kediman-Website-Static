@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>产品搜索</title>
+	<link rel="icon" type="image/x - icon" href="favicon.ico"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/contact.css" rel='stylesheet' type='text/css' />
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Poppins:100i,200,200i,300,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="header_top" id="home">
+			<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+				<a class="navbar-brand" href="index.html">
+					<img src="logo.png" width="90" height="35"></i> 科迪曼电子</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto tp-nav text-center">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">首页
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">公司介绍</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Brands.html">代理品牌</a>
+						</li>
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+							    aria-expanded="false">
+								产品中心
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="Product Search.html">产品搜索</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Online Order.html">线上下单</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Wayon.html">维安</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Chipown.html">芯朋</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="PNJ.html">派恩杰</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Perfectway.html">平伟</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Champion.html">虹冠</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="YJ.html">扬杰</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="UTC.html">UTC</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Bonic.html">宝力</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="Panjit.html">强茂</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="news.html">行业资讯</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="SellingNetwork.html">销售网络</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">联系我们</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="job opportunity.html">工作机会</a>
+						</li>
+					</ul>
+					<form action="#" method="post" class="form-inline my-2 my-lg-0 search">
+						
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">EN | 英文版</button>
+					</form>
+					
+					
+
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--//header-->
+
+	<!--/banner-->
+	<div class="banner-inner">
+	</div>
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a href="index.html">首页</a>
+		</li>
+		<li class="breadcrumb-item active">产品搜索</li>
+	</ol>
+	<!--/model-->
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Introduction Video</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body video">
+					<iframe src="https://player.vimeo.com/video/33531612"></iframe>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//model-->
+	<!--/404-->
+	<section class="services">
+		<div class="container">
+			<div class="inner-sec-w3layouts-agileinfo">
+				<div class="error-404">
+					<h4>产品中心</h4>
+					<p>请在下方输入产品关键字</p>
+						<input type="text" id="prodsearchbar" onkeyup="searchFunction()" class="prodsearchbar" placeholder="搜索">
+						<ul id="prodUl" class= "prodUl">
+							<li><a href="datasheets/1043-0sC0rQ.pdf">WT2222A | 规格书下载</a></li>
+							<li><a href="datasheets/1042-zamMis.pdf">WT955 | 规格书下载</a></li>
+							<li><a href="datasheets/1041-Mcmjx9.pdf">WMx80N65C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1040-C2cdqe.pdf">WMx80N60C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1039-wHaQPn.pdf">WMx53N60F2 | 规格书下载</a></li>
+							<li><a href="datasheets/1038-IdBxSw.pdf">WMx30N65EM | 规格书下载</a></li>
+							<li><a href="datasheets/1037-mGHgZA.pdf">WMx28N60C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1036-Ofgo5N.pdf">WMx28N50C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1035-ziGHwu.pdf">WMx26N60C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1034-4zBSC8.pdf">WMx25N50C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1033-YYfbzL.pdf">WMx18N50C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1032-aCc2bO.pdf">WMx14N60C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1031-sLx9Ab.pdf">WMx13N50C4 | 规格书下载</a></li>
+							<li><a href="datasheets/1030-cSdION.pdf">WMX08N80M3 | 规格书下载</a></li>
+							<li><a href="datasheets/1029-oGMNLs.pdf">WMx07N65C2 | 规格书下载</a></li>
+							<li><a href="datasheets/1028-fvDEwO.pdf">WMx07N60C2 | 规格书下载</a></li>
+							<li><a href="datasheets/1027-UWIuT2.pdf">WMS13N06T1 | 规格书下载</a></li>
+							<li><a href="datasheets/1026-AfZkGH.pdf">WMO690N15HG2 | 规格书下载</a></li>
+							<li><a href="datasheets/1025-BzGFcK.pdf">WMO90N02T1 | 规格书下载</a></li>
+							<li><a href="datasheets/1024-Bgho9K.pdf">WMO80N03T1 | 规格书下载</a></li>
+							<li><a href="datasheets/1023-zh3hyH.pdf">WMO080N10HG2 | 规格书下载</a></li>
+							<li><a href="datasheets/1022-8bxax9.pdf">WMO55N03T1 | 规格书下载</a></li>
+							<li><a href="datasheets/1021-bDYnMD.pdf">WMO50P04T1 | 规格书下载</a></li>
+							<li><a href="datasheets/1020-MaRdWY.pdf">WMO28N15T2 | 规格书下载</a></li>
+							<li><a href="datasheets/1019-9fYBDp.pdf">WMO18N20T2 | 规格书下载</a></li>
+							<li><a href="datasheets/1018-JgvCBR.pdf">WMO09N15T1 | 规格书下载</a></li>
+							<li><a href="datasheets/1017-ODsPpG.pdf">WMM053NV8HGS | 规格书下载</a></li>
+							<li><a href="datasheets/1016-CzW9oC.pdf">WMM043N10HGS | 规格书下载</a></li>
+							<li><a href="datasheets/1015-uWN6j1.pdf">WMM028N10HG2 | 规格书下载</a></li>
+							<li><a href="datasheets/1014-Ydgi8i.pdf">WMK198N15HG2 | 规格书下载</a></li>
+							<li><a href="datasheets/1013-kV9DKC.pdf">WMK099N10HGS | 规格书下载</a></li>
+							<li><a href="datasheets/1012-fxolpV.pdf">WMK75N03T1 | 规格书下载</a></li>
+							<li><a href="datasheets/1011-x8HDjf.pdf">WMK025N06HG2 | 规格书下载</a></li>
+							<li><a href="datasheets/1010-AUuikk.pdf">WMB018N04LG2 | 规格书下载</a></li>
+							<li><a href="datasheets/1009-CFapcP.pdf">WM10N02M | 规格书下载</a></li>
+							<li><a href="datasheets/1008-xKhm5p.pdf">WM03DH60A | 规格书下载</a></li>
+							<li><a href="datasheets/1007-ccXilp.pdf">WEOS61089-17F | 规格书下载</a></li>
+							<li><a href="datasheets/1006-0QMpDl.pdf">WMx26n65f2 | 规格书下载</a></li>
+							<li><a href="datasheets/1005-VWqxFj.pdf">PN8680P | 规格书下载</a></li>
+							<li><a href="datasheets/1004-zaYF9o.pdf">PN8680M | 规格书下载</a></li>
+							<li><a href="datasheets/1003-WjKdGg.pdf">PN8571P | 规格书下载</a></li>
+							<li><a href="datasheets/1002-hvawhG.pdf">PN8571MB | 规格书下载</a></li>
+							<li><a href="datasheets/1001-N0qr3p.pdf">PN8571MC | 规格书下载</a></li>
+							<li><a href="datasheets/1000-ZrGxyx.pdf">PN8571 | 规格书下载</a></li>
+							<!-- 第四页开始 -->
+							<li><a href="datasheets/999-g95224.pdf">PN8570 | 规格书下载</a></li>
+							<li><a href="datasheets/998-wKyexU.pdf">PN8395 | 规格书下载</a></li>
+							<li><a href="datasheets/997-rav4qK.pdf">PN8390 | 规格书下载</a></li>
+							<li><a href="datasheets/996-JnCMpD.pdf">PN8386F | 规格书下载</a></li>
+							<li><a href="datasheets/995-qIRUA5.pdf">PN8386 | 规格书下载</a></li>
+							<li><a href="datasheets/994-aVY3yM.pdf">PN8370M | 规格书下载</a></li>
+							<li><a href="datasheets/993-ASq8fF.pdf">PN8370 | 规格书下载</a></li>
+							<li><a href="datasheets/992-xhQp28.pdf">PN8368 | 规格书下载</a></li>
+							<li><a href="datasheets/991-t7qoHk.pdf">PN8366 | 规格书下载</a></li>
+							<li><a href="datasheets/990-wXg1ML.pdf">PN8359 | 规格书下载</a></li>
+							<li><a href="datasheets/989-Aeb4Hh.pdf">PN8309M | 规格书下载</a></li>
+							<li><a href="datasheets/988-luJDN9.pdf">PN8309H | 规格书下载</a></li>
+							<li><a href="datasheets/987-64z70q.pdf">PN8308M | 规格书下载</a></li>
+							<li><a href="datasheets/986-16qOCo.pdf">PN8308L | 规格书下载</a></li>
+							<li><a href="datasheets/985-q8YfoE.pdf">PN8308H | 规格书下载</a></li>
+							<li><a href="datasheets/984-EMoJyJ.pdf">PN8307M | 规格书下载</a></li>
+							<li><a href="datasheets/982-bS2dCg.pdf">PN8307H | 规格书下载</a></li>
+							<li><a href="datasheets/981-SIdTYH.pdf">PN8306M | 规格书下载</a></li>
+							<li><a href="datasheets/980-LSBo5f.pdf">PN8306L | 规格书下载</a></li>
+							<li><a href="datasheets/979-O0wPHi.pdf">PN8306H | 规格书下载</a></li>
+							<li><a href="datasheets/978-QRsJl0.pdf">PN8305H | 规格书下载</a></li>
+							<li><a href="datasheets/977-4VfccI.pdf">PN8275 | 规格书下载</a></li>
+							<li><a href="datasheets/976-LILbsp.pdf">PN8200 | 规格书下载</a></li>
+							<li><a href="datasheets/975-u3aTp8.pdf">PN8166 | 规格书下载</a></li>
+							<li><a href="datasheets/974-M1UY37.pdf">PN8165 | 规格书下载</a></li>
+							<li><a href="datasheets/973-Epb5F9.pdfs">PN8161 | 规格书下载</a></li>
+							<li><a href="datasheets/972-T3zCcl.pdf">PN8160 | 规格书下载</a></li>
+							<li><a href="datasheets/971-Dnfota.pdf">PN8149H | 规格书下载</a></li>
+							<li><a href="datasheets/970-03T9xj.pdf">PN8147T | 规格书下载</a></li>
+							<li><a href="datasheets/969-ddnE8s.pdf">PN8141 | 规格书下载</a></li>
+							<li><a href="datasheets/968-bkMBKa.pdf">PN8038 | 规格书下载</a></li>
+							<li><a href="datasheets/967-rSvlRB.pdf">PN8034 | 规格书下载</a></li>
+							<li><a href="datasheets/966-gyJTuJ.pdf">PN7762 | 规格书下载</a></li>
+							<li><a href="datasheets/965-Rr0D80.pdf">PN6795D | 规格书下载</a></li>
+							<li><a href="datasheets/964-B8DoLe.pdf">PN6775 | 规格书下载</a></li>
+							<li><a href="datasheets/963-Eao8wA.pdf">PN6770H | 规格书下载</a></li>
+							<li><a href="datasheets/962-QgnNgs.pdf">APS2430 | 规格书下载</a></li>
+							<li><a href="datasheets/961-CUXUBo.pdf">AP8268 | 规格书下载</a></li>
+							<li><a href="datasheets/960-htUfT1.pdf">AP8022H | 规格书下载</a></li>
+							<li><a href="datasheets/959-E76RFe.pdf">AP8012H | 规格书下载</a></li>
+							<li><a href="datasheets/958-cvpUQm.pdf">AP8005 | 规格书下载</a></li>
+							<li><a href="datasheets/957-88Ql81.pdf">AP5056 | 规格书下载</a></li>
+							<li><a href="datasheets/956-vVHHHj.pdf">AP2960 | 规格书下载</a></li>
+							<li><a href="datasheets/955-4J8QQj.pdf">AP2954 | 规格书下载</a></li>
+							<li><a href="datasheets/954-Tsr1qA.pdf">AP1625 | 规格书下载</a></li>
+							<!-- page 7 -->
+							<li><a href="datasheets/953-TQwdqr.pdf">AP1313 | 规格书下载</a></li>
+							<li><a href="datasheets/952-2Uo46o.pdf">P3D06006G2 | 规格书下载</a></li>
+							<li><a href="datasheets/951-ev3jtE.pdf">P3D06010I2 | 规格书下载</a></li>
+							<li><a href="datasheets/950-tDLAA1.pdf">P3D06008I2 | 规格书下载</a></li>
+							<li><a href="datasheets/949-4bDqDS.pdf">P3D06006I2 | 规格书下载</a></li>
+							<li><a href="datasheets/948-6xFnWo.pdf">P3D06020I2 | 规格书下载</a></li>
+							<li><a href="datasheets/947-0llRGy.pdf">P3M12080K4 | 规格书下载</a></li>
+							<li><a href="datasheets/946-UhQqIQ.pdf">P1H06300D8 | 规格书下载</a></li>
+							<li><a href="datasheets/945-yFOkJo.pdf">P3D06010T2 | 规格书下载</a></li>
+							<li><a href="datasheets/944-TSZdNL.pdf">P3D06008T2 | 规格书下载</a></li>
+							<li><a href="datasheets/943-99BHdZ.pdf">P3D06006T2 | 规格书下载</a></li>
+							<li><a href="datasheets/942-kI1yOv.pdf">P3D06004T2 | 规格书下载</a></li>
+							<li><a href="datasheets/932-NVDETy.pdf">GBU608 | 规格书下载</a></li>
+							<li><a href="datasheets/931-mhYLWf.pdf">GBP3005-GBP310 | 规格书下载</a></li>
+							<li><a href="datasheets/930-b9QRHo.pdf">GBL4005 THRU GBL410 | 规格书下载</a></li>
+							<li><a href="datasheets/929-nWgXvH.pdf">DSS24 | 规格书下载</a></li>
+							<li><a href="datasheets/928-ZMvzqq.pdf">FR107 | 规格书下载</a></li>
+							<li><a href="datasheets/924-pJed2G.pdf">JM35112 | 规格书下载</a></li>
+							<li><a href="datasheets/923-RypUD2.pdf">JM2281 | 规格书下载</a></li>
+							<li><a href="datasheets/922-kwxwOo.pdf">AZ431A | 规格书下载</a></li>
+							<li><a href="datasheets/921-KYdWFi.pdf">GPT16N50 | 规格书下载</a></li>
+							<li><a href="datasheets/920-SRyiTF.pdf">GPT13N50 | 规格书下载</a></li>
+							<li><a href="datasheets/919-uiLldc.pdf">GP47S60 | 规格书下载</a></li>
+							<li><a href="datasheets/918-BgnNFE.pdf">GP28S50 | 规格书下载</a></li>
+							<li><a href="datasheets/917-VXvOG8.pdf">GP07S65 | 规格书下载</a></li>
+							<li><a href="datasheets/916-XAslhz.pdf">CU6901VACISTR | 规格书下载</a></li>
+							<li><a href="datasheets/915-73YzZ0.pdf">CU6500 | 规格书下载</a></li>
+							<li><a href="datasheets/914-ym0bF9.pdf">CMS6511ENX | 规格书下载</a></li>
+							<li><a href="datasheets/913-M5VAqQ.pdf">CMS6509AENX | 规格书下载</a></li>
+							<li><a href="datasheets/912-2d1rlB.pdf">CMS6507AENX | 规格书下载</a></li>
+							<!-- 第九页 -->
+							<li><a href="datasheets/911-gKRm56.pdf">CMS6030ENX | 规格书下载</a></li>
+							<li><a href="datasheets/910-sCKuSn.pdf">CMD15R06 | 规格书下载</a></li>
+							<li><a href="datasheets/909-sUAua9.pdf">CM6805AIGIR | 规格书下载</a></li>
+							<li><a href="datasheets/908-0n4C6q.pdf">CM6800U | 规格书下载</a></li>
+							<li><a href="datasheets/907-r99TgW.pdf">CM6502UHH | 规格书下载</a></li>
+							<li><a href="datasheets/906-vempt0.pdf">CM6500UN | 规格书下载</a></li>
+							<li><a href="datasheets/905-dWDrP7.pdf">UT60N03 | 规格书下载</a></li>
+							<li><a href="datasheets/904-tPnNqU.pdf">UM603A | 规格书下载</a></li>
+							<li><a href="datasheets/903-P7tKqA.pdf">MMBT3904 | 规格书下载</a></li>
+							<li><a href="datasheets/902-dTBbHR.pdf">MMBT2222A | 规格书下载</a></li>
+							<li><a href="datasheets/901-25sGjv.pdf">MGBR30S60C | 规格书下载</a></li>
+							<li><a href="datasheets/900-4CJQvT.pdf">MGBR15U50 | 规格书下载</a></li>
+							<li><a href="datasheets/899-gancFr.pdf">MGBR10S45 | 规格书下载</a></li>
+							<li><a href="datasheets/898-GJfnvv.pdf">MBR30200C | 规格书下载</a></li>
+							<li><a href="datasheets/897-vOWpCC.pdf">MBR3100 | 规格书下载</a></li>
+							<!-- 第十页 -->
+							<li><a href="datasheets/896-df6tb6.pdf">MBR1100 | 规格书下载</a></li>
+							<li><a href="datasheets/895-FguY5u.pdf">MBR545 | 规格书下载</a></li>
+							<li><a href="datasheets/893-M2kniw.pdf">LV358 | 规格书下载</a></li>
+							<li><a href="datasheets/892-2vSatm.pdf">LV321 | 规格书下载</a></li>
+							<li><a href="datasheets/891-OK2xuU.pdf">LM324 | 规格书下载</a></li>
+							<li><a href="datasheets/890-pd1Tvr.pdf">LD1117 | 规格书下载</a></li>
+							<li><a href="datasheets/889-WNA7Po.pdf">DTC143E | 规格书下载</a></li>
+							<li><a href="datasheets/888-a1R8AW.pdf">DTC114E | 规格书下载</a></li>
+							<li><a href="datasheets/887-PBsqu8.pdf">BAW56 | 规格书下载</a></li>
+							<li><a href="datasheets/886-yQDHXf.pdf">80N08 | 规格书下载</a></li>
+							<li><a href="datasheets/885-xL3Efs.pdf">24NM60 | 规格书下载</a></li>
+							<li><a href="datasheets/884-S4jJPA.pdf">18NM65-SH | 规格书下载</a></li>
+							<li><a href="datasheets/883-bXzwGI.pdf">15NM60 | 规格书下载</a></li>
+							<li><a href="datasheets/882-3olriC.pdf">8NM65-U2 | 规格书下载</a></li>
+							<li><a href="datasheets/881-uEYCqK.pdf">7NM60 | 规格书下载</a></li>
+							<!-- page 11 -->
+							<li><a href="datasheets/880-FmTQHV.pdf">4NM65G-SHA | 规格书下载</a></li>
+							<li><a href="datasheets/879-Y62M0c.pdf">3NM65G | 规格书下载</a></li>
+							<li><a href="datasheets/878-Y3Cl1b.pdf">2SD1616 | 规格书下载</a></li>
+							<li><a href="datasheets/877-D0GqqT.pdf">2SB834 | 规格书下载</a></li>
+							<li><a href="datasheets/876-NJRL8t.pdf">2SB649A | 规格书下载</a></li>
+							<li><a href="datasheets/875-tQ6RGd.pdf">2SA733 | 规格书下载</a></li>
+							<li><a href="datasheets/874-3dThGX.pdf">18NM65-SH | 规格书下载</a></li>
+							<li><a href="datasheets/873-tXZxpg.pdf">15NM65-SH | 规格书下载</a></li>
+							<li><a href="datasheets/872-hDzbHQ.pdf">13NM65 | 规格书下载</a></li>
+							<li><a href="datasheets/871-jj1Lu2.pdf">11NM65-U2 | 规格书下载</a></li>
+							<li><a href="datasheets/870-Oj0JyT.pdf">9NM65 | 规格书下载</a></li>
+							<li><a href="datasheets/869-SHkhHw.pdf">8NM65 | 规格书下载</a></li>
+							<li><a href="datasheets/868-i2TYtv.pdf">7NM65 | 规格书下载</a></li>
+							<li><a href="datasheets/867-WFLJi1.pdf">12N65-CBQ | 规格书下载</a></li>
+							<li><a href="datasheets/866-lafJCr.pdf">12N65KMT | 规格书下载</a></li>
+							<!-- page 12 -->
+							<li><a href="datasheets/865-9FyBEs.pdf">2N7002G | 规格书下载</a></li>
+							<li><a href="datasheets/864-XlJCQy.pdf">2N4401 | 规格书下载</a></li>
+							<li><a href="datasheets/862-efr0vx.pdf">1SS355 | 规格书下载</a></li>
+							<li><a href="datasheets/861-gIPG5P.pdf">1N4148-UTC | 规格书下载</a></li>
+							<li><a href="datasheets/860-6lGPrW.pdf">1N4007G | 规格书下载</a></li>
+							<li><a href="datasheets/859-Hr3NMM.pdf">1N4004G | 规格书下载</a></li>
+							<li><a href="datasheets/858-l6A9wA.pdf">13NM90 | 规格书下载</a></li>
+							<li><a href="datasheets/857-2Vm490.pdf">12NM90 | 规格书下载</a></li>
+							<li><a href="datasheets/856-otRqM3.pdf">10NM90 | 规格书下载</a></li>
+							<li><a href="datasheets/855-b1NS7m.pdf">8NM90 | 规格书下载</a></li>
+							<li><a href="datasheets/854-OI6LGK.pdf">6NM90 | 规格书下载</a></li>
+							<li><a href="datasheets/853-OfOslZ.pdf">5NM90 | 规格书下载</a></li>
+							<li><a href="datasheets/852-9N4I3D.pdf">4NM90 | 规格书下载</a></li>
+							<li><a href="datasheets/851-JKAcQm.pdf">9N90 | 规格书下载</a></li>
+							<li><a href="datasheets/850-ieFbnn.pdf">LV321 | 规格书下载</a></li>
+							<!-- page 13 -->
+							<li><a href="datasheets/849-Q9DxL6.pdf">2SB772 | 规格书下载</a></li>
+							<li><a href="datasheets/848-AWqs1l.pdf">2SD882 | 规格书下载</a></li>
+							<li><a href="datasheets/847-8FR0ax.pdf">11N90 | 规格书下载</a></li>
+							<li><a href="datasheets/838-i5cgiK.pdf">R8CB05BO | 规格书下载</a></li>
+							<li><a href="datasheets/837-53lb7f.pdf">CM6806+ | 规格书下载</a></li>
+							<li><a href="datasheets/836-8Alodn.pdf">GP18S50 | 规格书下载</a></li>
+							<li><a href="datasheets/835-zhylLJ.pdf">GPT21N50 | 规格书下载</a></li>
+							<li><a href="datasheets/834-ChRIgT.pdf">GPT18N50 | 规格书下载</a></li>
+							<li><a href="datasheets/833-s1QZLp.pdf">GPT16N50 | 规格书下载</a></li>
+							<li><a href="datasheets/832-4hDzfP.pdf">CM03 | 规格书下载</a></li>
+							<li><a href="datasheets/831-QADpHg.pdf">GPT13N50 | 规格书下载</a></li>
+							<li><a href="datasheets/830-EKvhp6.pdf">CMD5R06 | 规格书下载</a></li>
+							<li><a href="datasheets/829-iZdduo.pdf">CM6800T | 规格书下载</a></li>
+							<li><a href="datasheets/828-DVCIjm.pdf">FS276 | 规格书下载</a></li>
+							<li><a href="datasheets/827-DNzb2p.pdf">MXT284E | 规格书下载</a></li>
+							<!-- page 14 -->
+							<li><a href="datasheets/826-RyP7WP.pdf">CMPFCD86 | 规格书下载</a></li>
+							<li><a href="datasheets/825-11IeNP.pdf">RL207 | 规格书下载</a></li>
+							<li><a href="datasheets/824-dUSCBl.pdf">PS30U系列 | 规格书下载</a></li>
+							<li><a href="datasheets/823-D4Wt1U.pdf">GBU408 | 规格书下载</a></li>
+							<li><a href="datasheets/822-ZjjzQ2.pdf">FR107 | 规格书下载</a></li>
+							<li><a href="datasheets/821-8SqjR8.pdf">BZV85C2V7 | 规格书下载</a></li>
+							<li><a href="datasheets/820-UTk98r.pdf">1N4148-PW | 规格书下载</a></li>
+							<li><a href="datasheets/819-iN1ubP.pdf">SXM345AV | 规格书下载</a></li>
+							<li><a href="datasheets/818-5aFITh.pdf">MUR460M | 规格书下载</a></li>
+							<li><a href="datasheets/817-p5ck2y.pdf">QR806 | 规格书下载</a></li>
+							<li><a href="datasheets/816-w7C3MI.pdf">QR406 | 规格书下载</a></li>
+							<li><a href="datasheets/815-4srHdE.pdf">SBM245L | 规格书下载</a></li>
+							<li><a href="datasheets/813-p4ZGwH.pdf">LLC_Resonant HB Analysis&Design | 规格书下载</a></li>
+							<li><a href="datasheets/812-yDxb5Z.pdf">Efficiency Vitamin CM11.6V | 规格书下载</a></li>
+							<li><a href="datasheets/811-vSjSVv.pdf">CM02-CMD02 | 规格书下载</a></li>
+							<!-- page 15 -->
+							<li><a href="datasheets/810-IvtMim.pdf">CM6805BO | 规格书下载</a></li>
+							<li><a href="datasheets/809-DCRPRu.pdf">CM6901XIS | 规格书下载</a></li>
+						  </ul>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!--//404-->
+	<!--footer-->
+	<footer>
+		<div class="container">
+			<div class="row footer-top-w3layouts-agile">
+				<div class="col-lg-3 footer-grid" data-aos="zoom-in">
+					<div class="footer-title">
+						<h2>备案许可</h2>
+					</div>
+					<div class="footer-text">
+						<p>粤ICP备13088888号</p>
+					</div>
+					<div class="footer-text">
+						<p>网页制作: jiaxi lee</p>
+					</div>
+					
+				</div>
+				<div class="col-lg-3 footer-grid" data-aos="zoom-in">
+					<div class="footer-title">
+						<h3>联系我们</h3>
+					</div>
+					<div class="footer-office-hour">
+						<ul>
+							<li class="hd">地址 :</li>
+							<li>深圳市宝安区石岩街道松白路西侧创维数字大厦901B</li>
+
+						</ul>
+						<ul>
+							<li class="hd">电话:0086-755-29659945</li>
+							<li class="hd">企业邮箱:
+								<a href="mailto:kdm_lgm@126.com">kdm_lgm@126.com</a>
+							</li>
+							<li class="hd">传真: 0086-755-29960603</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 footer-grid" data-aos="zoom-in">
+					<div class="footer-title">
+						<h3>代理品牌</h3>
+					</div>
+					<div class="footer-list">
+						<div class="flickr-grid">
+							<a href="https://www.way-on.cn/en_index.html">
+								<img src="images/wayon.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="http://www.perfectway.cn/">
+								<img src="images/Perfectway.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="https://www.championmicro.com.tw/">
+								<img src="images/Champion.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="https://www.chipown.com.cn/">
+								<img src="images/Chipown.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="https://www.21yangjie.com/">
+								<img src="images/YJ.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="http://www.pnjsemi.com/">
+								<img src="images/PNJ.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="http://www.panjit.com/">
+								<img src="images/Panjit.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="http://www.utc-ic.com/">
+								<img src="images/UTC.png" alt=" ">
+							</a>
+						</div>
+						<div class="flickr-grid">
+							<a href="http://www.szbonic.com/">
+								<img src="images/Bonic.PNG" alt=" ">
+							</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 footer-grid" data-aos="zoom-in">
+					<div class="footer-title">
+						<h3>订阅</h3>
+					</div>
+					<p>请在下方留下您的邮箱, 我们将会为您发送最新的产品信息</p>
+					<form action="#" method="post" class="newsletter">
+						<input class="email" type="email" placeholder="您的邮箱地址..." required="">
+						<button class="btn1">
+							<i class="far fa-envelope"></i>
+						</button>
+					</form>
+					<div class="clearfix"></div>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+	<!---->
+	<div class="copyright">
+		<div class="container">
+			<div class="copyrighttop">
+				<ul>
+					<li>
+						<h4>Follow us on:</h4>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="copyrightbottom" >
+				<p>Copyright &copy; 2023.深圳市科迪曼电子科技有限公司版权所有</p>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- js -->
+
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+		<!-- /js files -->
+		<link href='css/aos.css' rel='stylesheet prefetch' type="text/css" media="all" />
+		<link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
+		<script src='js/aos.js'></script>
+		<script src="js/aosindex.js"></script>
+		<!-- //js files -->
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+
+	<!-- start-smoth-scrolling -->
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+									var defaults = {
+							  			containerID: 'toTop', // fading element id
+										containerHoverID: 'toTopHover', // fading element hover id
+										scrollSpeed: 1200,
+										easingType: 'linear' 
+							 		};
+									*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<a href="#home" class="scroll" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 1;"> </span>
+	</a>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script>
+		function searchFunction() {
+			var input, filter, ul, li, a, i, txtValue;
+			input = document.getElementById("prodsearchbar");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("prodUl");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				txtValue = a.textContent || a.innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+		</script>
+
+</body>
+
+</html>
